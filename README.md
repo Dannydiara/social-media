@@ -1,20 +1,5 @@
 <div align="center">
-  <br />
-  <a href="https://youtu.be/_W3R2VwRyF4?feature=shared" target="_blank">
-    <img src="https://github.com/adrianhajdin/social_media_app/assets/151519281/be514a19-3cbb-48b7-9acd-2cf4d2e319c4" alt="Project Banner">
-  </a>
-  <br />
-  <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-React_Query-black?style=for-the-badge&logoColor=white&logo=reactquery&color=FF4154" alt="reactquery" />
-    <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-  </div>
   <h3 align="center">Diahub: A Social Media Application</h3>
-  <div align="center">
-    Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-  </div>
 </div>
 
 ## 📋 Table of Contents
@@ -72,7 +57,6 @@ Ensure you have the following installed:
 
 ### Cloning the Repository
 
-```bash
 git clone https://github.com/adrianhajdin/social_media_app.git
 cd social_media_app
 
@@ -117,4 +101,5 @@ Join our personalized masterclass to learn best practices, various web skills, a
 <a href="https://www.jsmastery.pro/masterclass" target="_blank">
   <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Expert Training Program">
 </a>
-```
+
+#
