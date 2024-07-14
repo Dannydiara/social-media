@@ -12,7 +12,7 @@
 6. 🔗 [Links](#links)
 7. 🚀 [More](#more)
 
-## 🤖 Introduction
+## <a name="introduction">🤖 Introduction</a>
 
 Explore social media with Diahub, a user-friendly platform that offers a beautiful design and numerous features. Create and explore posts effortlessly, benefit from a robust authentication system, and enjoy quick data fetching with React Query for a seamless user experience.
 
@@ -22,7 +22,7 @@ If you need assistance or face any issues, join our active Discord community wit
   <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" />
 </a>
 
-## ⚙️ Tech Stack
+## <a name="tect-stack">⚙️ Tech Stack</a>
 
 - **React.js**: A JavaScript library for building user interfaces, ensuring a responsive and dynamic UI.
 - **Appwrite**: A backend server for web, mobile, and Flutter developers, providing authentication, database, file storage, and more.
@@ -31,7 +31,7 @@ If you need assistance or face any issues, join our active Discord community wit
 - **Shadcn UI**: A collection of reusable components that speeds up the development process.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development, enabling custom designs with ease.
 
-## 🔋 Features
+## <a name="features">🔋 Features</a>
 
 - **Authentication System**: Ensures secure and private user access.
 - **Explore Page**: Allows users to discover posts, with a featured section for top creators.
@@ -45,9 +45,9 @@ If you need assistance or face any issues, join our active Discord community wit
 - **React Query Integration**: Provides efficient data fetching, auto-caching, and more.
 - **Appwrite Backend**: Simplifies backend development with built-in services like authentication and database management.
 
-## 🤸 Quick Start
+## Quick Start<a name="tect-stack">🤸 Quick Start</a>
 
-### Prerequisites
+**Prerequisites**
 
 Ensure you have the following installed:
 
@@ -60,10 +60,10 @@ Ensure you have the following installed:
 git clone https://github.com/adrianhajdin/social_media_app.git
 cd social_media_app
 
-Installation
+## <a name="quick-start">Installlation</a>
 Install project dependencies:
 
-bash
+```bash
 Copy code
 npm install
 Set Up Environment Variables
@@ -86,20 +86,6 @@ Copy code
 npm start
 Open http://localhost:3000 in your browser to view the project.
 
-## 🔗 Links
-Project Assets
-🚀 More
-Advance your skills with Next.js 14 Pro Course
-Dive deeper into our PRO courses for a richer learning experience. Detailed explanations, advanced features, and exercises to enhance your skills.
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Next.js 14 Pro Course">
-</a>
-Accelerate your professional journey with the Expert Training program
-Join our personalized masterclass to learn best practices, various web skills, and receive mentorship to boost your confidence and expertise.
-
-<a href="https://www.jsmastery.pro/masterclass" target="_blank">
-  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/fed352ad-f27b-400d-9b8f-c7fe628acb84" alt="Expert Training Program">
-</a>
+```
 
 #
