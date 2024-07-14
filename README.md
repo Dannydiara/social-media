@@ -9,8 +9,6 @@
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -45,7 +43,7 @@ If you need assistance or face any issues, join our active Discord community wit
 - **React Query Integration**: Provides efficient data fetching, auto-caching, and more.
 - **Appwrite Backend**: Simplifies backend development with built-in services like authentication and database management.
 
-## Quick Start<a name="tect-stack">🤸 Quick Start</a>
+## Quick Start<a name="quick-start">🤸 Quick Start</a>
 
 **Prerequisites**
 
@@ -60,7 +58,7 @@ Ensure you have the following installed:
 git clone https://github.com/adrianhajdin/social_media_app.git
 cd social_media_app
 
-## <a name="quick-start">Installlation</a>
+**Installlation**
 Install project dependencies:
 
 ```bash
