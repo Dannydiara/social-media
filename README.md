@@ -14,12 +14,6 @@
 
 Explore social media with Diahub, a user-friendly platform that offers a beautiful design and numerous features. Create and explore posts effortlessly, benefit from a robust authentication system, and enjoy quick data fetching with React Query for a seamless user experience.
 
-If you need assistance or face any issues, join our active Discord community with over 27k+ members for support and collaboration.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank">
-  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" />
-</a>
-
 ## <a name="tect-stack">⚙️ Tech Stack</a>
 
 - **React.js**: A JavaScript library for building user interfaces, ensuring a responsive and dynamic UI.
