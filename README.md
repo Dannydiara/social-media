@@ -1,30 +1,83 @@
-# React + TypeScript + Vite
+<div align="center">
+  <h3 align="center">Diahub: A Social Media Application</h3>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Table of Contents
 
-Currently, two official plugins are available:
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## <a name="introduction">🤖 Introduction</a>
 
-## Expanding the ESLint configuration
+Explore social media with Diahub, a user-friendly platform that offers a beautiful design and numerous features. Create and explore posts effortlessly, benefit from a robust authentication system, and enjoy quick data fetching with React Query for a seamless user experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## <a name="tect-stack">⚙️ Tech Stack</a>
 
-- Configure the top-level `parserOptions` property like this:
+- **React.js**: A JavaScript library for building user interfaces, ensuring a responsive and dynamic UI.
+- **Appwrite**: A backend server for web, mobile, and Flutter developers, providing authentication, database, file storage, and more.
+- **React Query**: A data-fetching library that simplifies server state management, ensuring efficient data retrieval and caching.
+- **TypeScript**: A superset of JavaScript that adds static typing, enhancing code quality and developer experience.
+- **Shadcn UI**: A collection of reusable components that speeds up the development process.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development, enabling custom designs with ease.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## <a name="features">🔋 Features</a>
+
+- **Authentication System**: Ensures secure and private user access.
+- **Explore Page**: Allows users to discover posts, with a featured section for top creators.
+- **Like and Save Functionality**: Users can like and save posts, with dedicated pages for managing these interactions.
+- **Detailed Post Page**: Displays content and related posts for an immersive experience.
+- **Profile Page**: Showcases user activities and provides options to edit profiles.
+- **Browse Other Users**: Enables users to explore other profiles and their posts.
+- **Create Post Page**: Offers a user-friendly interface for creating and managing posts with drag-and-drop functionality.
+- **Edit Post Functionality**: Users can edit their posts at any time.
+- **Responsive UI with Bottom Bar**: Enhances the mobile app experience with seamless navigation.
+- **React Query Integration**: Provides efficient data fetching, auto-caching, and more.
+- **Appwrite Backend**: Simplifies backend development with built-in services like authentication and database management.
+
+## Quick Start<a name="quick-start">🤸 Quick Start</a>
+
+**Prerequisites**
+
+Ensure you have the following installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/)
+
+### Cloning the Repository
+
+git clone https://github.com/adrianhajdin/social_media_app.git
+cd social_media_app
+
+**Installlation**
+Install project dependencies:
+
+```bash
+Copy code
+npm install
+Set Up Environment Variables
+Create a .env file in the project root and add:
+
+env
+Copy code
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_STORAGE_ID=
+VITE_APPWRITE_USER_COLLECTION_ID=
+VITE_APPWRITE_POST_COLLECTION_ID=
+VITE_APPWRITE_SAVES_COLLECTION_ID=
+Replace placeholders with your Appwrite credentials from the Appwrite website.
+
+Running the Project
+bash
+Copy code
+npm start
+Open http://localhost:3000 in your browser to view the project.
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#
