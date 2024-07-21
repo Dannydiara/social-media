@@ -1,7 +1,11 @@
+import { Button } from "../../components/ui/button"
+
 const SignupForm = () => {
   return (
     <div>
-      Sign Up
+      <Button>
+        Smash
+      </Button>
     </div>
   )
 }

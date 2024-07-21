@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+
+    // Shadcn
     "baseUrl": ".",
     "paths": {
       "@/*": [
