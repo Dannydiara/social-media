@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Diahub: A Social Media Application</h3>
+  <h3 align="center">Vibeshub: A Social Media Application</h3>
 </div>
 
 ## 📋 Table of Contents
@@ -12,72 +12,148 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Explore social media with Diahub, a user-friendly platform that offers a beautiful design and numerous features. Create and explore posts effortlessly, benefit from a robust authentication system, and enjoy quick data fetching with React Query for a seamless user experience.
+Discover Vibeshub, the ultimate social media platform with a sleek design and tons of features. Effortlessly create and explore posts, enjoy top-notch security, and experience lightning-fast performance for a smooth and seamless vibe.
 
-## <a name="tect-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React.js**: A JavaScript library for building user interfaces, ensuring a responsive and dynamic UI.
-- **Appwrite**: A backend server for web, mobile, and Flutter developers, providing authentication, database, file storage, and more.
-- **React Query**: A data-fetching library that simplifies server state management, ensuring efficient data retrieval and caching.
-- **TypeScript**: A superset of JavaScript that adds static typing, enhancing code quality and developer experience.
-- **Shadcn UI**: A collection of reusable components that speeds up the development process.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development, enabling custom designs with ease.
+- **React.js**: React was selected for its component-based architecture and declarative UI approach, which simplifies the creation of interactive and dynamic user interfaces.
+- **Appwrite**: Appwrite is my backend server of choice, offering a complete set of secure and scalable APIs for user authentication, database, storage, and more, tailored for modern web and mobile applications.
+- **React Query**: React Query simplifies data fetching and state management, providing robust tools for caching, synchronization, and updating server state, which enhances the app's performance and user experience.
+- **TypeScript**: TypeScript adds static typing to JavaScript, enabling early error detection and improved code quality, which is essential for maintaining a large and complex codebase.
+- **ViteJS**: I chose Vite.js for its speed and efficiency. Vite offers instant server start, lightning-fast hot module replacement (HMR), and optimized builds, making development fast and seamless.
+- **Shadcn UI**: Shadcn provides accessible, high-quality React components that speed up UI development, ensuring consistency and a polished user experience.
+- **Tailwind CSS**: Tailwind CSS was chosen for its utility-first approach, allowing for rapid styling directly in the markup without leaving the HTML file, resulting in a highly customizable and maintainable design system.
 
 ## <a name="features">🔋 Features</a>
 
-- **Authentication System**: Ensures secure and private user access.
-- **Explore Page**: Allows users to discover posts, with a featured section for top creators.
-- **Like and Save Functionality**: Users can like and save posts, with dedicated pages for managing these interactions.
-- **Detailed Post Page**: Displays content and related posts for an immersive experience.
-- **Profile Page**: Showcases user activities and provides options to edit profiles.
-- **Browse Other Users**: Enables users to explore other profiles and their posts.
-- **Create Post Page**: Offers a user-friendly interface for creating and managing posts with drag-and-drop functionality.
-- **Edit Post Functionality**: Users can edit their posts at any time.
-- **Responsive UI with Bottom Bar**: Enhances the mobile app experience with seamless navigation.
-- **React Query Integration**: Provides efficient data fetching, auto-caching, and more.
-- **Appwrite Backend**: Simplifies backend development with built-in services like authentication and database management.
+- **🔒 Robust Authentication**: Secure and private user access to keep your data safe.
+- **🌐 Explore Page**: Discover posts from all users, with a spotlight on top creators.
+- **❤️ Like and Save**: Interact with posts by liking and saving them, easily manage your favorites.
+- **📝 Detailed Post Page**: Dive into content with related posts for a rich browsing experience.
+- **👤 Profile Page**: Highlight your activities and customize your profile.
+- **🔍 Browse Users**: Explore profiles and posts from other users effortlessly.
+- **➕ Create Posts**: A user-friendly interface for creating posts with drag-and-drop functionality.
+- **✏️ Edit Posts**: Modify your posts anytime with ease.
+- **📱 Responsive Design**: Enjoy a seamless mobile experience with an intuitive bottom navigation bar.
+- **⚡ React Query**: Efficient data fetching with auto-caching and real-time updates.
+- **🚀 Appwrite Backend**: Streamlined backend services for authentication, database, and more.
 
 ## Quick Start<a name="quick-start">🤸 Quick Start</a>
 
-**Prerequisites**
+## Quick Start
 
-Ensure you have the following installed:
+Follow these steps to set up your project using Vite.js:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/)
+### Prerequisites
 
-### Cloning the Repository
+Make sure you have the following installed on your development machine:
 
-git clone https://github.com/adrianhajdin/social_media_app.git
-cd social_media_app
+- [Node.js](https://nodejs.org/) (version 12.0.0 or higher)
+- npm (comes with Node.js) or [Yarn](https://yarnpkg.com/)
 
-**Installlation**
-Install project dependencies:
+### Installation
 
-```bash
-Copy code
-npm install
-Set Up Environment Variables
-Create a .env file in the project root and add:
+1. **Create a new Vite project**:
 
-env
-Copy code
-VITE_APPWRITE_URL=
-VITE_APPWRITE_PROJECT_ID=
-VITE_APPWRITE_DATABASE_ID=
-VITE_APPWRITE_STORAGE_ID=
-VITE_APPWRITE_USER_COLLECTION_ID=
-VITE_APPWRITE_POST_COLLECTION_ID=
-VITE_APPWRITE_SAVES_COLLECTION_ID=
-Replace placeholders with your Appwrite credentials from the Appwrite website.
+    ```bash
+    npm create vite@latest my-social-media-app
+    # or
+    yarn create vite my-social-media-app
+    ```
+    OR
+    Use this if you are already in the folder you will code in.
+    ```bash
+    npm create vite@latest my-social-media-app ./
+    # or
+    yarn create vite my-social-media-app ./
+    ```
 
-Running the Project
-bash
-Copy code
-npm start
-Open http://localhost:3000 in your browser to view the project.
+2. **Navigate to the project directory**:
 
-```
+    ```bash
+    cd my-social-media-app
+    ```
+
+3. **Install dependencies**:
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+4. **Start the development server**:
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+Your Vite development server will start, and you can view your app in the browser at `http://localhost:3000`.
+
+### Adding React, Appwrite, shadcn, Tailwind CSS, and React Query
+
+1. **Add React and ReactDOM**:
+
+    ```bash
+    npm install react react-dom
+    # or
+    yarn add react react-dom
+    ```
+
+2. **Add Appwrite SDK**:
+
+    ```bash
+    npm install appwrite
+    # or
+    yarn add appwrite
+    ```
+
+3. **Add shadcn UI components**:
+
+    ```bash
+    npm install shadcn
+    # or
+    yarn add shadcn
+    ```
+
+4. **Add Tailwind CSS**:
+
+    ```bash
+    npm install tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+    ```
+
+    Then, add the following to your `tailwind.config.js`:
+
+    ```javascript
+    module.exports = {
+      content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+      theme: {
+        extend: {},
+      },
+      plugins: [],
+    };
+    ```
+
+    And include Tailwind in your `src/index.css`:
+
+    ```css
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
+
+5. **Add React Query**:
+
+    ```bash
+    npm install @tanstack/react-query
+    # or
+    yarn add @tanstack/react-query
+    ```
+
+You are now set up with Vite.js and the necessary tools for developing your social media app!
+
 
 #
