@@ -61,7 +61,7 @@ Make sure you have the following installed on your development machine:
     yarn create vite my-social-media-app
     ```
     OR
-    Use this if you are already in the folder you will code in.
+    Use this if you are already in the folder you will code in. In that case case ignore number 2 and jump to 3
     ```bash
     npm create vite@latest my-social-media-app ./
     # or
