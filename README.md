@@ -18,7 +18,7 @@ Discover Vibeshub, the ultimate social media platform with a sleek design and to
 
 - **React.js**: React was selected for its component-based architecture and declarative UI approach, which simplifies the creation of interactive and dynamic user interfaces.
 - **Appwrite**: Appwrite is my backend server of choice, offering a complete set of secure and scalable APIs for user authentication, database, storage, and more, tailored for modern web and mobile applications.
-- **React Query**: React Query simplifies data fetching and state management, providing robust tools for caching, synchronization, and updating server state, which enhances the app's performance and user experience.
+- **React Query**: React Query simplifies data fetching and state management, Infinite Scroll Queries, providing robust tools for caching and auto caching, synchronization, and updating server state, which enhances the app's performance and user experience.
 - **TypeScript**: TypeScript adds static typing to JavaScript, enabling early error detection and improved code quality, which is essential for maintaining a large and complex codebase.
 - **ViteJS**: I chose Vite.js for its speed and efficiency. Vite offers instant server start, lightning-fast hot module replacement (HMR), and optimized builds, making development fast and seamless.
 - **Shadcn UI**: Shadcn provides accessible, high-quality React components that speed up UI development, ensuring consistency and a polished user experience.
