@@ -52,3 +52,11 @@ export async function saveUserToDB(user: {
         
     }
 }
+
+export async function signInAccount(user: { email: string; password: string }) {
+    try {
+        const session = await account.createEmailSession(user.email, uaer.password);
+    } catch (error) {
+        console.log(error);
+    }
+}
